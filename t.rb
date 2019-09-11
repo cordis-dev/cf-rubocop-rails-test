@@ -6,3 +6,7 @@ foo == nil || foo.empty?
 
 # good
 foo.blank?
+
+class SomeClass
+  EXPIRED_AT = 1.week.since
+end
